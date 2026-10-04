@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CatatKilat</string>
+    <string name="shortcut_lunch_short">Makan Siang</string>
+    <string name="shortcut_lunch_long">Catat Cepat Makan Siang</string>
+    <string name="shortcut_gas_short">Bensin</string>
+    <string name="shortcut_gas_long">Catat Cepat Isi Bensin</string>
+    <string name="shortcut_coffee_short">Nongkrong</string>
+    <string name="shortcut_coffee_long">Catat Cepat Kafe / Kopi</string>
+    <string name="shortcut_quick_add">Catat Baru</string>
+</resources>

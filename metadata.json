@@ -1,0 +1,6 @@
+{
+  "name": "CatatKilat",
+  "description": "Aplikasi pencatat pengeluaran harian ultra-cepat dengan shortcut, grafik pengeluaran, pemantau budget, dan AI insight.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

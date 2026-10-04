@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="shortcut_lunch"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_lunch_short"
+        android:shortcutLongLabel="@string/shortcut_lunch_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.aistudio.catatkilat.qxnmz"
+            android:targetClass="com.example.MainActivity">
+            <extra android:name="shortcut_type" android:value="makan" />
+            <extra android:name="shortcut_title" android:value="Makan Siang" />
+            <extra android:name="shortcut_amount" android:value="25000" />
+            <extra android:name="shortcut_category" android:value="Makanan" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:shortcutId="shortcut_gas"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_gas_short"
+        android:shortcutLongLabel="@string/shortcut_gas_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.aistudio.catatkilat.qxnmz"
+            android:targetClass="com.example.MainActivity">
+            <extra android:name="shortcut_type" android:value="bensin" />
+            <extra android:name="shortcut_title" android:value="Bensin" />
+            <extra android:name="shortcut_amount" android:value="30000" />
+            <extra android:name="shortcut_category" android:value="Transportasi" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:shortcutId="shortcut_coffee"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_coffee_short"
+        android:shortcutLongLabel="@string/shortcut_coffee_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.aistudio.catatkilat.qxnmz"
+            android:targetClass="com.example.MainActivity">
+            <extra android:name="shortcut_type" android:value="kopi" />
+            <extra android:name="shortcut_title" android:value="Nongkrong di Kafe" />
+            <extra android:name="shortcut_amount" android:value="35000" />
+            <extra android:name="shortcut_category" android:value="Hiburan" />
+        </intent>
+    </shortcut>
+</shortcuts>
